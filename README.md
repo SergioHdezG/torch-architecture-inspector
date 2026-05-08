@@ -25,7 +25,7 @@ pip install torch
 ```
 
 ## Quick Start
-```
+```python
 import torch
 from torch_architecture_inspector import generate_model_inspector
 
@@ -41,7 +41,7 @@ generate_model_inspector(model, output_file="model_report.html")
 Deep learning models, especially **Transformers** or specialized genomic networks like **AlphaGenome**, often contain hundreds or thousands of nested layers. Managing and auditing these architectures presents several challenges:
 
 *   **Standard Print:** Using `print(model)` in PyTorch produces a text output that is often too dense and vertically long to read or analyze effectively.
-*   **Graph representation:** While they are powerful tools for low-level operation debugging, they can be overwhelming and "too zoomed-in" when you only need to understand high-level class structures and parameter distribution.
+*   **Graph representation Tools:** While they are powerful tools for low-level operation debugging, they can be overwhelming and "too zoomed-in" when you only need to understand high-level class structures and parameter distribution.
 *   **Torch Architecture Inspector:** Provides a clean, **hierarchical view** focused on:
     *   **Resource Allocation:** Instantly see which blocks consume the most parameters.
     *   **Architectural Metadata:** Quick access to kernels, strides, and layer dimensions without digging through code.
