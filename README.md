@@ -1,6 +1,6 @@
 # Torch Architecture Inspector
 
-A lightweight, zero-dependency interactive visualizer for PyTorch model architectures. 
+A lightweight, zero-dependency interactive visualizer for PyTorch model architectures in HTML. 
 
 Unlike heavy visualization tools, **Torch Architecture Inspector** generates a standalone, searchable HTML tree that helps you identify parameter-heavy layers, inspect dimensions, and copy layer paths directly for code access.
 
@@ -12,8 +12,14 @@ Unlike heavy visualization tools, **Torch Architecture Inspector** generates a s
 - **Standalone HTML:** Generates a single file you can share or open in any browser.
 
 ## Installation
-Just copy the `generate_model_inspector` function into your project or clone this repo.
+You can clone this repository and install it locally:
+```bash
+git clone [https://github.com/your-username/torch-architecture-inspector.git](https://github.com/your-username/torch-architecture-inspector.git)
+cd torch-architecture-inspector
+pip install .
+```
 
+or just copy the `generate_model_inspector` function into your project or clone this repo.
 ```bash
 pip install torch
 ```
@@ -21,12 +27,37 @@ pip install torch
 ## Quick Start
 ```
 import torch
-from torch_arch_inspector import generate_model_inspector
+from torch_architecture_inspector import generate_model_inspector
 
+# Initialize your model
 model = YourCustomModel()
+
+# Generate the interactive report
 generate_model_inspector(model, output_file="model_report.html")
 ```
 
 ## Why use this?
 
-Deep learning models like Transformers or genomic networks (like AlphaGenome) often have thousands of layers. Traditional print statements are unreadable, and graphical tools like Netron can be overwhelming. This tool provides a structured, hierarchical view focused on resource allocation and architectural metadata.
+Deep learning models, especially **Transformers** or specialized genomic networks like **AlphaGenome**, often contain hundreds or thousands of nested layers. Managing and auditing these architectures presents several challenges:
+
+*   **Standard Print:** Using `print(model)` in PyTorch produces a text output that is often too dense and vertically long to read or analyze effectively.
+*   **Graph representation:** While they are powerful tools for low-level operation debugging, they can be overwhelming and "too zoomed-in" when you only need to understand high-level class structures and parameter distribution.
+*   **Torch Architecture Inspector:** Provides a clean, **hierarchical view** focused on:
+    *   **Resource Allocation:** Instantly see which blocks consume the most parameters.
+    *   **Architectural Metadata:** Quick access to kernels, strides, and layer dimensions without digging through code.
+    *   **Developer Workflow:** Interactive search and path copying to bridge the gap between visualization and coding.
+
+
+## Citation
+
+```
+@misc{torch_arch_inspector2026,
+  author = {Hernández, S.},
+  title = {Torch Architecture Inspector: An Interactive HTML Model Profiler},
+  year = {2026},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{[https://github.com/your-username/torch-architecture-inspector](https://github.com/your-username/torch-architecture-inspector)}}
+}
+```
+
