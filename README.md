@@ -7,13 +7,6 @@
 >A lightweight, zero-dependency interactive visualizer for PyTorch model architectures in HTML. 
 
 Unlike heavy visualization tools, **Torch Architecture Inspector** generates a standalone, searchable HTML tree that helps you identify parameter-heavy layers, inspect dimensions, and copy layer paths directly for code access.
-
-## Key Features
-- **Zero External Dependencies:** Only requires `torch`. No Graphviz or ONNX needed.
-- **Weight Profiling:** Calculation of parameter percentages per layer (perfect for SVD/Pruning analysis).
-- **Interactive Search:** Filter by layer type (e.g., `Conv1d`), dimensions (e.g., `1536`), or specific paths.
-- **Path Copying:** One-click to copy the internal PyTorch path (e.g., `tower.blocks.0.linear`) for direct manipulation.
-- **Standalone HTML:** Generates a single file you can share or open in any browser.
 <br>
 <p align="center">
   <img src="assets/alphagenome_inspector.gif" alt="Torch Architecture Inspector Demo" width="650">
@@ -24,6 +17,12 @@ Unlike heavy visualization tools, **Torch Architecture Inspector** generates a s
   </a>
 </p>
 
+## Key Features
+- **Zero External Dependencies:** Only requires `torch`. No Graphviz or ONNX needed.
+- **Weight Profiling:** Calculation of parameter percentages per layer (perfect for SVD/Pruning analysis).
+- **Interactive Search:** Filter by layer type (e.g., `Conv1d`), dimensions (e.g., `1536`), or specific paths.
+- **Path Copying:** One-click to copy the internal PyTorch path (e.g., `tower.blocks.0.linear`) for direct manipulation.
+- **Standalone HTML:** Generates a single file you can share or open in any browser.
 
 ## Installation
 You can clone this repository and install it locally:
