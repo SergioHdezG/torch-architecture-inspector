@@ -67,13 +67,12 @@ Deep learning models, especially **Transformers** or specialized genomic network
 ## Citation
 
 ```bibtext
-@misc{torch_arch_inspector2026,
-  author = {Hernández, S.},
-  title = {Torch Architecture Inspector: An Interactive HTML Model Profiler},
-  year = {2026},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/SergioHdezG/torch-architecture-inspector}}
+@software{hernandez2026torch,
+  author       = {Hernández-García, S.},
+  title        = {Torch Architecture Inspector: An Interactive HTML Model Profiler},
+  url          = {https://github.com/SergioHdezG/torch-architecture-inspector},
+  version      = {1.0.0},
+  year         = {2026}
 }
 ```
 
