@@ -14,8 +14,6 @@ Unlike heavy visualization tools, **Torch Architecture Inspector** generates a s
 - **Interactive Search:** Filter by layer type (e.g., `Conv1d`), dimensions (e.g., `1536`), or specific paths.
 - **Path Copying:** One-click to copy the internal PyTorch path (e.g., `tower.blocks.0.linear`) for direct manipulation.
 - **Standalone HTML:** Generates a single file you can share or open in any browser.
-
-## Interactive Demo
 <br>
 <p align="center">
   <img src="assets/alphagenome_inspector.gif" alt="Torch Architecture Inspector Demo" width="650">
