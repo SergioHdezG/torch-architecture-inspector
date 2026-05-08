@@ -14,7 +14,7 @@ Unlike heavy visualization tools, **Torch Architecture Inspector** generates a s
 ## Installation
 You can clone this repository and install it locally:
 ```bash
-git clone [https://github.com/your-username/torch-architecture-inspector.git](https://github.com/your-username/torch-architecture-inspector.git)
+git clone https://github.com/SergioHdezG/torch-architecture-inspector.git
 cd torch-architecture-inspector
 pip install .
 ```
@@ -50,14 +50,14 @@ Deep learning models, especially **Transformers** or specialized genomic network
 
 ## Citation
 
-```
+```bibtext
 @misc{torch_arch_inspector2026,
   author = {Hernández, S.},
   title = {Torch Architecture Inspector: An Interactive HTML Model Profiler},
   year = {2026},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{[https://github.com/your-username/torch-architecture-inspector](https://github.com/your-username/torch-architecture-inspector)}}
+  howpublished = {\url{https://github.com/SergioHdezG/torch-architecture-inspector}}
 }
 ```
 
