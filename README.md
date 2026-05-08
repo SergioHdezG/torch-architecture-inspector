@@ -1,11 +1,10 @@
 # Torch Architecture Inspector
-### An interactive HTML model profiler for PyTorch
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-A lightweight, zero-dependency interactive visualizer for PyTorch model architectures in HTML. 
+>A lightweight, zero-dependency interactive visualizer for PyTorch model architectures in HTML. 
 
 Unlike heavy visualization tools, **Torch Architecture Inspector** generates a standalone, searchable HTML tree that helps you identify parameter-heavy layers, inspect dimensions, and copy layer paths directly for code access.
 
