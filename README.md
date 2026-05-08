@@ -1,4 +1,4 @@
-# Torch Architecture Inspector
+# Torch Architecture Inspector: An Interactive HTML Model Profiler
 
 A lightweight, zero-dependency interactive visualizer for PyTorch model architectures in HTML. 
 
