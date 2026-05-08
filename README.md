@@ -16,9 +16,9 @@ Unlike heavy visualization tools, **Torch Architecture Inspector** generates a s
 - **Standalone HTML:** Generates a single file you can share or open in any browser.
 
 ## Interactive Demo
-<br><br>
+<br>
 <p align="center">
-  <img src="assets/alphagenome_inspector.gif" alt="Torch Architecture Inspector Demo" width="500">
+  <img src="assets/alphagenome_inspector.gif" alt="Torch Architecture Inspector Demo" width="650">
   <br>
   <br>
   <a href="https://sergiohdezg.github.io/torch-architecture-inspector/alpha_genome.html">
