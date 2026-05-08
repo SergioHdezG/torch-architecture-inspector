@@ -16,22 +16,16 @@ Unlike heavy visualization tools, **Torch Architecture Inspector** generates a s
 - **Standalone HTML:** Generates a single file you can share or open in any browser.
 
 ## Interactive Demo<table>
-  <tr>
-    <td>
-      <p align="center"><b>Static Preview</b></p>
-      <img src="docs/preview_screenshot.png" alt="Inspector Screenshot" width="400">
-    </td>
-    <td>
-      <p align="center"><b>Interactive Version</b></p>
-      <p align="center">
-        Explore the full <b>AlphaGenome</b> architecture in your browser:<br><br>
-        <a href="https://SergioHdezG.github.io/torch-architecture-inspector/alpha_genome.html">
-          <img src="https://img.shields.io/badge/View_Live_Demo-007acc?style=for-the-badge&logo=html5&logoColor=white" alt="Live Demo">
-        </a>
-      </p>
-    </td>
-  </tr>
-</table>
+
+<p align="center">
+  <img src="assets/alphagenome_inspector.gif" alt="Torch Architecture Inspector Demo" width="800">
+  <br>
+  <br>
+  <a href="https://sergiohdezg.github.io/torch-architecture-inspector/alpha_genome.html">
+    <img src="https://img.shields.io/badge/EXPLORE_LIVE_DEMO-007acc?style=for-the-badge&logo=html5&logoColor=white" alt="Live Demo">
+  </a>
+</p>
+
 
 ## Installation
 You can clone this repository and install it locally:
