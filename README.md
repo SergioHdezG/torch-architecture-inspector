@@ -1,6 +1,6 @@
 # Torch Architecture Inspector
-**An Interactive HTML Model Profiler**
-<br>
+>**An Interactive HTML Model Profiler**
+<br><br>
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
