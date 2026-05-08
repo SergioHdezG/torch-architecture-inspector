@@ -15,10 +15,10 @@ Unlike heavy visualization tools, **Torch Architecture Inspector** generates a s
 - **Path Copying:** One-click to copy the internal PyTorch path (e.g., `tower.blocks.0.linear`) for direct manipulation.
 - **Standalone HTML:** Generates a single file you can share or open in any browser.
 
-## Interactive Demo<table>
-
+## Interactive Demo
+<br><br>
 <p align="center">
-  <img src="assets/alphagenome_inspector.gif" alt="Torch Architecture Inspector Demo" width="800">
+  <img src="assets/alphagenome_inspector.gif" alt="Torch Architecture Inspector Demo" width="500">
   <br>
   <br>
   <a href="https://sergiohdezg.github.io/torch-architecture-inspector/alpha_genome.html">
